@@ -1,1 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header {
+    padding: 20px;
+}
+
+article {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+footer {
+    margin-top: 24px;
+}
+
+@media (min-width: 768px) {
+    article {
+        display: inline-block;
+        width: 30%;
+        margin-right: 3%;
+        vertical-align: top;
+    }
+}
